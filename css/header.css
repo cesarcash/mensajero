@@ -1,0 +1,6 @@
+.header {
+    block-size: var(--blockSize);
+    display: flex;
+    align-items: center;
+    background-color: var(--grey-4);
+}
