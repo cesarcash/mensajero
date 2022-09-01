@@ -1,10 +1,11 @@
 @import './chat.css';
 @import './header.css';
-@import './messages.css';
-@import './actions.css';
+@import './message-list.css';
+@import './action-list.css';
 @import './user.css';
 
 :root {
+    font-size: 16px;
     --blockSize: 5rem;
     --black: #000000; 
     --grey: #666667; 

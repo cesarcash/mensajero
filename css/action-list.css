@@ -1,4 +1,4 @@
-.actions {
+.action-list {
     block-size: var(--blockSize);
     background-color: var(--grey-4);
     display: flex;
