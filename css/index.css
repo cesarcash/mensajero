@@ -2,6 +2,7 @@
 @import './header.css';
 @import './messages.css';
 @import './actions.css';
+@import './user.css';
 
 :root {
     --blockSize: 5rem;
@@ -22,10 +23,10 @@
     --body-14regular_u: 500 0.875rem/1.25rem Inter; 
     --caption-12bold: 700 0.75rem/1rem Inter; 
     --caption-12regular: 400 0.75rem/1rem Inter; 
-    --caption-12regular_u: 400 0.75rem/1.25rem Inter; 
-
+    --caption-12regular_u: 400 0.75rem/1.25rem Inter;
 }
 
 body {
     margin: 0;
+    font-family: 'Inter', sans-serif;
 }

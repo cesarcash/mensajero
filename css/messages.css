@@ -1,3 +1,4 @@
 .messages {
-    block-size: calc(100vh - var(--blockSize) * 2 - 2px);
+    /* block-size: calc(100vh - var(--blockSize) * 2 - 2px); */
+    flex-grow: 1;
 }
