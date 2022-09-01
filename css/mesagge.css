@@ -1,0 +1,50 @@
+.message {
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.message-text {
+    margin: 0;
+    color: var(--black);
+    font: var(--body-16regular);
+}
+
+.message.is-receiver {
+    background-color: var(--white);
+    border-radius: 0 .5rem .5rem .5rem;
+    align-self: flex-start;
+}
+
+.message.is-sender {
+    background-color: var(--green-1);
+    border-radius: .5rem 0 .5rem .5rem;
+    align-self: flex-end;
+}
+
+.message-details {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid green;
+    gap: .25rem;
+    
+}
+
+.message-date {
+    color: var(--grey);
+    font: var(--caption-12regular);
+    border: 1px solid blue;
+    
+}
+
+.message-status {
+    inline-size: 1rem;
+    aspect-ratio: 1;
+}
+
+.message-status.is-doubleCheck {
+    background-image: url('../images/icon-dobleCheck.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
