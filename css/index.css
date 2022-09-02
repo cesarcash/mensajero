@@ -3,6 +3,7 @@
 @import './message-list.css';
 @import './action-list.css';
 @import './user.css';
+@import './icons.css';
 
 :root {
     font-size: 16px;
