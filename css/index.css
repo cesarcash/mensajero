@@ -1,9 +1,17 @@
 @import './chat.css';
+@import './sidebar.css';
 @import './header.css';
 @import './message-list.css';
 @import './action-list.css';
 @import './user.css';
 @import './icons.css';
+@import './button.css';
+@import './forms.css';
+@import './layout.css';
+@import './profile.css';
+@import './search.css';
+@import './contact-list.css';
+@import './ellipsis.css';
 
 :root {
     font-size: 16px;
